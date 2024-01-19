@@ -15,4 +15,4 @@ Hello! Welcome to my newly built blog. My blogging journey began in 2017 when I 
 
 Maintaining my passion for blogging hasn't been easy. Often, when I navigate to the WordPress Dashboard, I find myself thinking, "blogging feels booooring" and "it's so meaningless"
 
-Recently, I discovered Astro, and the amazing theme AstroPaper. The simplicity immediately caught my attention. To publish a new post, all it takes is adding a Markdown file to the repository and pushing it. And here I am, again, saying hello to the world lol.
+Recently, I discovered [Astro](https://astro.build/), and the amazing theme [AstroPaper](https://github.com/satnaing/astro-paper). The simplicity immediately caught my attention. To publish a new post, all it takes is adding a Markdown file to the repository and pushing it. And here I am, again, saying hello to the world lol.

@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://wrye.dev/", // replace this with your deployed domain
   author: "Alan Ye",
   desc: "I'm a tech guy who loves coding. This is my personal blog where I write about Web dev, Linux, and other tech or casual stuff.",
-  title: "Alan Ye",
+  title: "Blog of Wr",
   ogImage: "og-image-default.png",
   lightAndDarkMode: true,
   postPerPage: 3,
@@ -134,9 +134,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Telegram",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://t.me/WrOffi",
     linkTitle: `${SITE.title} on Telegram`,
-    active: false,
+    active: true,
   },
   {
     name: "Mastodon",
