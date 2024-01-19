@@ -66,8 +66,8 @@ const searchList = sortedPosts.map(({ data, slug }) => ({
           </div>
         )
       }
+      <SearchBar client:load searchList={searchList} />
     </section>
-    <SearchBar client:load searchList={searchList} />
     <Hr />
 
     {
