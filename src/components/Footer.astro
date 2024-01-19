@@ -18,7 +18,12 @@ const { noMarginTop = false } = Astro.props;
     <div class="copyright-wrapper">
       <span>Copyright &#169; {currentYear} Alan Ye</span>
       <span class="separator">&nbsp;|&nbsp;</span>
-      <span>Available under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></span>
+      <span>Available under
+        <LinkButton
+          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
+          href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0
+        </LinkButton>
+      </span>
     </div>
   </div>
 </footer>
