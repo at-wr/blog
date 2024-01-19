@@ -13,7 +13,7 @@ description:
 language: English
 ---
 
-First, open the [Release Page](https://github.com/microsoft/winget-cli/releases) of [microsoft/winget-cli](https://github.com/microsoft/winget-cli/) GitHub Repository, grab the latest download link with ".msixbundle" extension, and copy it to your clipboard.
+First, open the **[Release Page](https://github.com/microsoft/winget-cli/releases)** of [microsoft/winget-cli](https://github.com/microsoft/winget-cli/) GitHub Repository, grab the latest download link with ".msixbundle" extension, and copy it to your clipboard.
 
 Remember, if you're on your production environment, please don't install the releases with "Pre-release" lable. Such releases can be buggy and may encounter unusual errors & issues.
 
