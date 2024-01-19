@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-I'm Alan Ye, a.k.a \_Wr\_. I'm a tech guy who loves coding. 
+I'm Alan Ye, a.k.a. \_Wr\_. I'm a tech guy who loves coding. 
 
 This is my personal blog where I write about Web dev, Linux, and other tech or casual stuff.
 
