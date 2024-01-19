@@ -12,8 +12,8 @@ import LinkButton from "@components/LinkButton.astro";
   <main id="main-content">
     <div class="not-found-wrapper">
       <h1 aria-label="404 Not Found">404</h1>
-      <span aria-hidden="true"></span>
       <p>Page Not Found</p>
+      <span aria-hidden="true"></span>
       <LinkButton
         href="/"
         className="my-6 underline decoration-dashed underline-offset-8 text-lg"
@@ -29,10 +29,17 @@ import LinkButton from "@components/LinkButton.astro";
 <script>
   // output a random list of 404 messages
 const fourOhFourMessages = [
-    "AHHHHHHHH! I cannot find the page anywhere QAQ",
+    "AHHHHHHHH! I cannot find the page anywhere",
     "Huh? Where did the page go?",
     "I think I lost the page...",
-    "WHAT?! THE PAGE WAS GONE!"
+    "WHAT?! THE PAGE WAS GONE!",
+    "It's missing...",
+    "I think it was just here...",
+    "Hehe, I ate the page",
+    "Hmm... What is four-oh-four? I guess it's delicious, isn't it?",
+    "・ࡇ・",
+    "（⊙.⊙）",
+    "._."
     ]
 const randomMessage = fourOhFourMessages[Math.floor(Math.random() * fourOhFourMessages.length)];
 document.querySelector("span[aria-hidden='true']").innerHTML = randomMessage;
