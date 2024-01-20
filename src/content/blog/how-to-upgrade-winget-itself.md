@@ -1,7 +1,7 @@
 ---
 title: How to upgrade winget itself
 pubDatetime: 2023-10-03T02:39:00.000Z
-modDatetime: 2024-01-19T21:51:48.500Z
+modDatetime: 
 slug: upgrade-winget-itself
 featured: false
 draft: false
