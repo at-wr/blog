@@ -9,13 +9,13 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import SearchBar from "@components/Search";
 import getSortedPosts from "@utils/getSortedPosts";
-import getSortedPostsByLanguage from "@utils/getSortedPostsByLanguage";
 import { SOCIALS } from "@config";
 
-let posts = await getCollection("blog");
-let sortedPosts = getSortedPosts(posts);
-let featuredPosts = sortedPosts.filter(({ data }) => data.featured);
-let recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+const posts = await getCollection("blog");
+
+const sortedPosts = getSortedPosts(posts);
+const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
+const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
 const socialCount = SOCIALS.filter(social => social.active).length;
 
@@ -26,15 +26,6 @@ const searchList = sortedPosts.map(({ data, slug }) => ({
   data,
   slug,
 }));
-
-const handleLanguageChange = (event) => {
-  const language = event.target.value;
-  if (language === 'All') {
-    recentPosts = sortedPosts.filter(({ data }) => !data.featured);
-  } else {
-    recentPosts = getSortedPostsByLanguage(recentPosts, language);
-  }
-}
 ---
 
 <Layout>
@@ -101,30 +92,24 @@ const handleLanguageChange = (event) => {
       )
     }
 
-    <select client:load onchange={handleLanguageChange}>
-      <option value="All">All</option>
-      <option value="en">English</option>
-      <option value="zh">Chinese</option>
-    </select>
-
     {
-        recentPosts.length > 0 && (
-            <section id="recent-posts">
-              <h2>Recent Posts</h2>
-              <ul>
-                {recentPosts.map(
-                    ({ data, slug }, index) =>
-                        index < 4 && (
-                            <Card
-                                href={`/posts/${slug}`}
-                                frontmatter={data}
-                                secHeading={false}
-                            />
-                        )
-                )}
-              </ul>
-            </section>
-        )
+      recentPosts.length > 0 && (
+        <section id="recent-posts">
+          <h2>Recent Posts</h2>
+          <ul>
+            {recentPosts.map(
+              ({ data, slug }, index) =>
+                index < 4 && (
+                  <Card
+                    href={`/posts/${slug}`}
+                    frontmatter={data}
+                    secHeading={false}
+                  />
+                )
+            )}
+          </ul>
+        </section>
+      )
     }
 
     <div class="all-posts-btn-wrapper">
