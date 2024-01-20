@@ -13,6 +13,7 @@ tags:
   - Coding
 description: 
   本文将介绍如何借助 Live Templates 的 Variable Expression 在 JetBrains IDE 中以 ISO 8601 格式输出当前时间。
+language: Chinese
 ---
 在 Markdown 等静态文件中，手动设置时间一直是一件极其麻烦的事情。尤其是 Astro，它 Markdown 文件中的时间格式必须是 [ISO 8601](https://zh.wikipedia.org/wiki/ISO_8601) 格式。🫠
 
@@ -50,14 +51,10 @@ date("yyyy-MM-dd'T'HH:mm:ssXXX")
 
 ## 效果
 
-<video autoplay muted="muted" controls plays-inline="true" class="border border-skin-line">
-  <source src="../../assets/images/iso-8601-time-format-in-jetbrains-ide-live-templates/template-example1.mp4" type="video/mp4">
-</video>
+![ISO 8601 模板效果](../../assets/images/iso-8601-time-format-in-jetbrains-ide-live-templates/template-example1.gif)
 
 除此之外，你也可以把模板应用在其他方面，比如快捷填充 Markdown Frontmatter...
 
-<video autoplay muted="muted" controls plays-inline="true" class="border border-skin-line">
-  <source src="../../assets/images/iso-8601-time-format-in-jetbrains-ide-live-templates/template-example2.mp4" type="video/mp4">
-</video>
+![Frontmatter 模板效果](../../assets/images/iso-8601-time-format-in-jetbrains-ide-live-templates/template-example2.gif)
 
 And... that's all! 感谢阅读 😉
