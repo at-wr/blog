@@ -69,7 +69,6 @@ export default (post: CollectionEntry<"blog">) => {
               width: "100%",
               marginBottom: "8px",
               fontSize: 28,
-              fontWeight: 400,
             }}
           >
             <span>
