@@ -4,7 +4,7 @@ pubDatetime: 2024-01-20T12:50:43.461Z
 title: English Test
 featured: true
 draft: false
-slug: chinese-test
+slug: english-test
 tags:
   - Misc
 description: English Test
