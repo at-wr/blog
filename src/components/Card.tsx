@@ -29,7 +29,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
         )}
       </a>
       <Datetime pubDatetime={pubDatetime} modDatetime={modDatetime} />
-      <p style="font-weight: 200;">{description}</p>
+      <p style={{ fontWeight: 200 }}>{description}</p>
     </li>
   );
 }
