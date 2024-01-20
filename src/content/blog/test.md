@@ -4,6 +4,7 @@ pubDatetime: 2024-01-20T12:50:43.461Z
 title: 中文测试
 featured: false
 draft: false
+slug: chinese-test
 tags:
   - Misc
 description: 中文测试
