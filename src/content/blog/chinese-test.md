@@ -1,7 +1,7 @@
 ---
 author: Alan Ye
 pubDatetime: 2024-01-20T12:50:43.461Z
-title: 中文测试
+title: Chinese Test 中文测试
 featured: true
 draft: false
 slug: chinese-test
