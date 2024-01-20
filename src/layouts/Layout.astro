@@ -25,6 +25,7 @@ const {
   pubDatetime,
   modDatetime,
   scrollSmooth = false,
+  lang = LOCALE.lang,
 } = Astro.props;
 
 const socialImageURL = new URL(
@@ -35,7 +36,7 @@ const socialImageURL = new URL(
 
 <!doctype html>
 <html
-  lang=`${LOCALE.lang ?? "en"}`
+  lang=`${lang ?? "en"}`
   class={`${scrollSmooth && "scroll-smooth"}`}
 >
   <head>

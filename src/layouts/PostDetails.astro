@@ -43,6 +43,7 @@ const layoutProps = {
   canonicalURL,
   ogImage: ogUrl,
   scrollSmooth: true,
+  lang: language,
 };
 ---
 
@@ -60,7 +61,7 @@ const layoutProps = {
       </svg><span>Back</span>
     </button>
   </div>
-  <main id="main-content" lang={language}>
+  <main id="main-content">
     <h1 transition:name={slugifyStr(title)} class="post-title">{title}</h1>
     <Datetime
       pubDatetime={pubDatetime}
