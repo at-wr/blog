@@ -41,13 +41,13 @@ language: Chinese
 date("yyyy-MM-dd'T'HH:mm:ssXXX")
 ```
 
-> 本文所使用的时间格式为 [Astro](https://astro.build/) 所[支持的 ISO 8601 时间格式](https://docs.astro.build/en/guides/content-collections/#working-with-dates-in-the-frontmatter)，可能与其他形式的 ISO 8601 有所不同。
+_注: 本文所使用的时间格式为 [Astro](https://astro.build/) 所[支持的 ISO 8601 时间格式](https://docs.astro.build/en/guides/content-collections/#working-with-dates-in-the-frontmatter)，可能与其他形式的 ISO 8601 有所不同。_
 
 这个代码使用了 Live Template Variable 的 date() 函数，双引号中的内容可以自定义其输出方式。该函数支持以 [SimpleDateFormat](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) 设置时间格式，例如: ``date("Y-MM-d, E, H:m")`` 将会返回 ``2020-02-27, Thu, 16:11``。
 
 ![变量设置](../../assets/images/iso-8601-time-format-in-jetbrains-ide-live-templates/variable-settings.png)
 
-> 如果你想了解 Live Templates 中关于其他变量信息，请参阅 [JetBrains 官方文档](https://www.jetbrains.com/help/idea/template-variables.html)。
+_如果你想了解 Live Templates 中关于其他变量信息，请参阅 [JetBrains 官方文档](https://www.jetbrains.com/help/idea/template-variables.html)。_
 
 ## 效果
 
