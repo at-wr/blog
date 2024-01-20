@@ -29,8 +29,6 @@ Turn up **Windows Terminal (Administrator)** with **PowerShell**.
 Type in the following command. Remember to replace ```URI-TO-YOUR-PREV-COPIED LINK``` with your copied link.
 
 ```powershell
-
-```powershell
 PS C:\Users\WrOffi> Add-AppxPackage -Path 'URI-TO-YOUR-PREV-COPIED LINK'
 PS C:\Users\WrOffi> # Example: Add-AppxPackage -Path 'https://github.com/microsoft/winget-cli/releases/download/v1.6.2721/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle'
 ```
