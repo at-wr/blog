@@ -1,6 +1,6 @@
 ---
 title: 腾讯云服务器 Ubuntu 实例开启 root 用户通过密码 SSH 远程登录教程
-description:
+description: 腾讯云云服务器 CVM 与 轻量应用服务器 Lighthouse 的 Ubuntu 实例的默认用户名是 ubuntu，并在安装过程中默认不设置 root 帐户和密码且禁用 root 用户通过密码 SSH 远程登录...
 pubDatetime: 2022-02-10T03:26:00.000Z
 modDatetime:
 author: Alan Ye
@@ -14,7 +14,6 @@ tags:
   - Tech
   - Tips
 ogImage: "../../assets/images/tencent-cvm-ubuntu-root/2022021002571021.png"
-canonicalURL:
 language: zh
 ---
 
