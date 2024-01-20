@@ -1,7 +1,7 @@
 ---
 title: How to upgrade winget itself
 pubDatetime: 2023-10-03T02:39:00.000Z
-modDatetime: 
+modDatetime:
 slug: upgrade-winget-itself
 featured: false
 draft: false
@@ -9,12 +9,11 @@ tags:
   - Tech
   - Windows
   - Tips
-description:
-  This tutorial will show you how to upgrade winget itself on Windows without uninstalling the old version.
-language: English
+description: This tutorial will show you how to upgrade winget itself on Windows without uninstalling the old version.
+language: en
 ---
 
-First, open the **[Release Page](https://github.com/microsoft/winget-cli/releases)** of [microsoft/winget-cli](https://github.com/microsoft/winget-cli/) GitHub Repository, grab the latest download link with ".msixbundle" extension, and copy it to your clipboard. 
+First, open the **[Release Page](https://github.com/microsoft/winget-cli/releases)** of [microsoft/winget-cli](https://github.com/microsoft/winget-cli/) GitHub Repository, grab the latest download link with ".msixbundle" extension, and copy it to your clipboard.
 
 > You just need to copy the download link without downloading it.
 
@@ -26,7 +25,7 @@ Turn up **Windows Terminal (Administrator)** with **PowerShell**.
 
 ![PowerShell screenshot (with Administrator)](../../assets/images/how-to-upgrade-winget-itself/2023100302284921.png)
 
-Type in the following command. Remember to replace ```URI-TO-YOUR-PREV-COPIED LINK``` with your copied link.
+Type in the following command. Remember to replace `URI-TO-YOUR-PREV-COPIED LINK` with your copied link.
 
 ```powershell
 PS C:\Users\WrOffi> Add-AppxPackage -Path 'URI-TO-YOUR-PREV-COPIED LINK'

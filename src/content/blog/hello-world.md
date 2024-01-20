@@ -6,9 +6,8 @@ featured: true
 draft: false
 tags:
   - Casual
-description:
-  Hello again, on my new blog.
-language: English
+description: Hello again, on my new blog.
+language: en
 ---
 
 Hello! Welcome to my newly built blog. My blogging journey began in 2017 when I delved into the world of WordPress. Over the years, I explored various CMS and VPS, tinkering with my blog: writing, refining, and sometimes starting anew. The journey was tough, but through them, I gained valuable insights into Web dev.
