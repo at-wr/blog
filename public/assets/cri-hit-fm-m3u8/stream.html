@@ -6,7 +6,8 @@
     <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
     <script src="https://cdn.jsdelivr.net/npm/dplayer@1.27.1/dist/DPlayer.min.js"></script>
 </head>
-<body id="dplayer">
+<body>
+<div id="dplayer"></div>
 </body>
 <script>
     const dp = new DPlayer({
@@ -28,8 +29,18 @@
     });
 </script>
 <style>
-    html {
-        background-color: black;
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Source Han Sans CN,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    }
+    #dplayer {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
     }
 </style>
 </html>
