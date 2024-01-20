@@ -15,12 +15,7 @@ language: cn
 
 > Hit FM (劲曲调频) 隶属于中央广播电视总台 (CRI)，是中央广播电视总台旗下的国际流行音乐频率，开播于1999年3月28日。
 
-<video width="640" height="300"
-    playsinline webkit-playsinline
-    autoplay controls preload="auto"
-    x-webkit-airplay="true" x5-video-player-fullscreen="true" x5-video-player-typ="h5">
-<source src="https://sk.cri.cn/887.m3u8" type="application/x-mpegURL">
-</video>
+<iframe allowfullscreen width="640px" height="360" frameborder="0" scrolling="no" src="../../assets/images/cri-hit-fm-m3u8/stream.html" />
 
 通过监视第三方的网络活动，我抓取到了 Hit FM 的 m3u8 直播流:
 
