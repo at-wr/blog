@@ -1,7 +1,7 @@
 ---
 title: 借助 Live Templates 在 JetBrains IDE 中以 ISO 8601 格式输出当前时间
 author: Alan Ye
-pubDatetime: 2024-01-20T15:07:11.205+0800
+pubDatetime: 2024-01-20T07:07:11.205Z
 modDatetime: 
 slug: iso-8601-time-format-in-jetbrains-ide-live-templates
 featured: false
