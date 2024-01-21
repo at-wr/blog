@@ -5,7 +5,7 @@ pubDatetime: 2022-02-08T01:26:00.000Z
 modDatetime:
 author: Alan Ye
 slug: sa2-directory-files-desc
-featured:
+featured: false
 draft: false
 tags:
   - Sonic
@@ -60,7 +60,7 @@ language: zh
 - OBJECT 指定各个关卡所含的物品...?
 - objects 通用物品...?
 - Sounds 音频...
-- stg\*_\__ 各个关卡的材质信息与模型
+- stg\*\_\_\_ 各个关卡的材质信息与模型
 
 ### gd_PC
 
