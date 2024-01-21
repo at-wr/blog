@@ -1,6 +1,6 @@
 ---
 title: 使用 Python 爬取 WordPress.org 上所有插件json信息
-description:
+description: 通过 requests / bs4 模块爬取 WordPress.org 插件 json 信息
 pubDatetime: 2020-05-03T13:30:00.000Z
 modDatetime:
 author: Alan Ye
@@ -13,8 +13,6 @@ tags:
   - Tech
   - Tips
   - Web
-ogImage: ""
-canonicalURL:
 language: zh
 ---
 
