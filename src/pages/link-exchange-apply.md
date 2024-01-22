@@ -15,10 +15,11 @@ Before I would add your link to my website, you'll need to meet the following co
 - At least ten original posts
 - Both Chinese and English are acceptable
 
-## Disallowed Content
+## Disallowed Conditions
 
 - Pornographic, violent, bloodstained, offensive, provocative, or other disturbing content
 - Excess Artificial Intelligence-created content
+- Websites, that are content farm, or consists a large proportion of unoriginal articles are disallowed
 
 If your site meets the above requirements, **then welcome**! Please apply with your blog's information, including `title`, `url`, `description`, and `avatar`, in the comment section.
 
