@@ -19,7 +19,7 @@ language: zh
 
 ## 写在开头
 
-当今，大部分平台已逐步从“一次性买断”过渡到“订阅制”，1Password 8 也是如此。科技行业日新月异，公司为了维持经营、继续发展做出此番举动也并非不可理解。
+当今，大部分平台已逐步从“一次性买断”过渡到“订阅制”，1Password 8 也是如此。公司为了维持经营、继续发展做出此番举动也并非不可理解。
 
 截止至 2024 年 1 月，1Password 8 个人版每年收费 USD $35.88，Teams 基础版 (10 人) 每年收费 USD $239.4。
 
@@ -27,7 +27,7 @@ language: zh
 
 而只要你申请通过了 1Password for Open Source Project，你就可以免费获得**永久**的 1Password for Teams 订阅，这实在是太良心了。
 
-当你看到 1Password for Open Source 的 [GitHub 页面](https://github.com/1Password/1password-teams-open-source)上所写的这段话便了解了他们的意图。
+当你看到 1Password for Open Source 的 [GitHub 页面](https://github.com/1Password/1password-teams-open-source)上所写的这段话便可了解他们的意图。
 
 > It's fair to say that 1Password wouldn't exist without the open source community, so we want to give back and help teams be more productive and secure.
 >
