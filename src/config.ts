@@ -7,7 +7,7 @@ export const SITE: Site = {
   title: "Blog of Wr",
   ogImage: "og-image-default.png",
   lightAndDarkMode: true,
-  postPerPage: 10,
+  postPerPage: 5,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
