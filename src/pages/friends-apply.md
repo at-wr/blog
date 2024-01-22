@@ -13,6 +13,7 @@ Before I would add your link to my website, you'll need to meet the following co
 - Most articles should be related to tech or other themes that are similar to this blog
 - The website should have been on for at least a year
 - At least ten original posts
+- Both Chinese and English are acceptable
 
 ## Disallowed Content
 
