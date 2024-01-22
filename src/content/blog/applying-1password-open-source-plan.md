@@ -1,5 +1,5 @@
 ---
-title: 通过开源项目申请 1Password Open Source 免费获得永久 Teams 订阅
+title: 通过开源项目申请 1Password Open Source 以获得 Teams 订阅许可证
 description: 当今，大部分平台已逐步从“一次性买断”过渡到“订阅制”，1Password 8 也是如此。科技行业日新月异，公司为了维持经营、继续发展做出此番举动也并非不可理解。但是只要你申请通过了 1Password for Open Source Project，你就可以免费获得永久的 1Password for Teams 订阅...
 pubDatetime: 2024-01-22T19:00:00+08:00
 modDatetime:
