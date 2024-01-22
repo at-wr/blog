@@ -19,7 +19,7 @@ Before I would add your link to my website, you'll need to meet the following co
 - Pornographic, violent, bloodstained, offensive, provocative, or other disturbing content
 - Excess Artificial Intelligence-created content
 
-If your site meets the above requirements, then welcome! Please apply with your blog's information, including `title`, `description`, and `avatar`, in the comment section.
+If your site meets the above requirements, then welcome! Please apply with your blog's information, including `title`, `url`, `description`, and `avatar`, in the comment section.
 
 ## Info about this website
 
