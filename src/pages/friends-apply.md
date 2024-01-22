@@ -19,7 +19,7 @@ Before I would add your link to my website, you'll need to meet the following co
 - Pornographic, violent, bloodstained, offensive, provocative, or other disturbing content
 - Excess Artificial Intelligence-created content
 
-If your site meets the above requirements, then welcome! Please apply with your blog's information, including `title`, `url`, `description`, and `avatar`, in the comment section.
+If your site meets the above requirements, **then welcome**! Please apply with your blog's information, including `title`, `url`, `description`, and `avatar`, in the comment section.
 
 ## Info about this website
 
@@ -30,6 +30,7 @@ If your site meets the above requirements, then welcome! Please apply with your 
 
 ## Note
 
-- Websites that I'm familiar with are more likely to be approved
+- **Don't be sacred by the requirements!** I don't care if your website is "fancy" or not, only content is the core.
 - You'll need to add my link to your website before your application
-- I will check the link availability from time to time, so make sure the backlink is present.
+- I will check the **link availability** from time to time, so make sure the backlink is present.
+- Websites that I'm familiar with are more likely to be approved
