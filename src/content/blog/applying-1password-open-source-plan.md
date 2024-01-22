@@ -79,6 +79,9 @@ https://myawesomeproject.org
 - 支持 macOS, iOS, Windows, Android, Linux, 浏览器插件和命令行
 - 可以生成 SSH Key 公私钥，并使用 1Password-CLI 将其用于 Git Commit 签名或其他自动化 Workflow
 - 调用 1Password-CLI 或者电脑唤醒后可以通过 Windows Hello / Touch ID / Face ID 快速鉴权 (可能之后会支持 Vision Pro 的 Optical ID)，不过电脑重启后或长时间未登录需要强制手动输入主密码
+
+![SSH Key Request Window](../../assets/images/applying-1password-open-source-plan/ssh-key-request-window.png)
+
 - 相比于每个网站都使用类似的密码，使用 1Password 可以让你为每个网站都生成不同的密码，以防撞库导致其他网站密码同样泄露
 - 相比在浏览器中保存密码，1Password 可以 _减少_ 因计算机被 Malware 潜入而导致账户密码被盗的情况
 - 自建 Bitwarden Self Host 是一个不错的低成本方案，但是其存在诸多不稳定因素，一旦服务器宕机数据便无法访问。我个人认为 1Password 团队还是比我的运维技术更强的。🙃
