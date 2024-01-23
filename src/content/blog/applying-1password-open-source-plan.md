@@ -78,7 +78,7 @@ https://myawesomeproject.org
 
 - 支持 macOS, iOS, Windows, Android, Linux, 浏览器插件和命令行
 - 可以生成 SSH Key 公私钥，并使用 1Password-CLI 将其用于 Git Commit 签名或其他自动化 Workflow
-- 调用 1Password-CLI 或者电脑唤醒后可以通过 Windows Hello / Touch ID / Face ID 快速鉴权 (可能之后会支持 Vision Pro 的 Optical ID)，不过电脑重启后或长时间未登录需要强制手动输入主密码
+- 调用 1Password-CLI 或者电脑唤醒后可以通过 Windows Hello / Touch ID / Face ID 快速鉴权 (可能之后会支持 Vision Pro 的 Optic ID)，不过电脑重启后或长时间未登录需要强制手动输入主密码
 
 ![SSH Key Request Window](../../assets/images/applying-1password-open-source-plan/ssh-key-request-window.png)
 
