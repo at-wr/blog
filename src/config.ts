@@ -146,8 +146,8 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mastodon",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://mastodon.social/@wrye",
     linkTitle: `_Wr_ on Mastodon`,
-    active: false,
+    active: true,
   },
 ];
