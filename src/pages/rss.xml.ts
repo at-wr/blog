@@ -2,9 +2,9 @@ import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SITE } from "@config";
-import sanitizeHtml from "sanitize-html";
-import MarkdownIt from "markdown-it";
-const parser = new MarkdownIt();
+// import sanitizeHtml from "sanitize-html";
+// import MarkdownIt from "markdown-it";
+// const parser = new MarkdownIt();
 
 export async function GET() {
   const posts = await getCollection("blog");
@@ -19,7 +19,7 @@ export async function GET() {
       title: data.title,
       description: data.description,
       pubDate: new Date(data.modDatetime ?? data.pubDatetime),
-      content: sanitizeHtml(parser.render(post.body)),
+      // content: sanitizeHtml(parser.render(data.content)),
     })),
   });
 }
