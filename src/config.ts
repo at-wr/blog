@@ -32,7 +32,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/AlanYe-Dev",
+    href: "https://github.com/at-wr",
     linkTitle: ` _Wr_ on GitHub`,
     active: true,
   },
