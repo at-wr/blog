@@ -146,7 +146,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mastodon",
-    href: "https://mastodon.social/@wrye",
+    href: "https://fedist.me/@wr",
     linkTitle: `_Wr_ on Mastodon`,
     active: true,
   },
