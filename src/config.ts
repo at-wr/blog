@@ -56,9 +56,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "https://aka.wrye.dev/mail",
+    href: "https://example.com",
     linkTitle: `Send an email to _Wr_`,
-    active: true,
+    active: false,
   },
   {
     name: "Twitter",
