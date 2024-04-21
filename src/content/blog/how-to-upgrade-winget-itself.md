@@ -1,7 +1,7 @@
 ---
 title: How to upgrade winget itself
 pubDatetime: 2023-10-03T02:39:00.000Z
-modDatetime:
+modDatetime: 2024-04-21T18:42:46+08:00
 slug: upgrade-winget-itself
 featured: false
 draft: false
@@ -31,6 +31,8 @@ Type in the following command. Remember to replace `URI-TO-YOUR-PREV-COPIED LINK
 PS C:\Users\WrOffi> Add-AppxPackage -Path 'URI-TO-YOUR-PREV-COPIED LINK'
 PS C:\Users\WrOffi> # Example: Add-AppxPackage -Path 'https://github.com/microsoft/winget-cli/releases/download/v1.6.2721/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle'
 ```
+
+> In some cases, you may need to add `-ForceApplicationShutdown` to the end of the command in order to update the package successfully.
 
 After that, the App Installer will automatically finish the following task.
 
