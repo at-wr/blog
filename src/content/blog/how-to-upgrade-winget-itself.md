@@ -33,6 +33,7 @@ PS C:\Users\WrOffi> # Example: Add-AppxPackage -Path 'https://github.com/microso
 ```
 
 > In some cases, you may need to add `-ForceApplicationShutdown` to the end of the command in order to update the package successfully.
+> (Thanks for the suggestion from [bellemam](https://github.com/bellemam))
 
 After that, the App Installer will automatically finish the following task.
 
