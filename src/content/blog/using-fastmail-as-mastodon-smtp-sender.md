@@ -17,7 +17,7 @@ Recently, I've been maintaining my self-hosted Mastodon instance [fedist.me](htt
 
 Initially, I tried to use Mailgun as the SMTP service but later discovered that sending emails via Mailgun is no longer available for free, even for students. So, I gave up on that option. I also tried Gmail, which was the only other method I tried that managed to send emails successfully. However, most of the emails sent via Gmail ended up in the Spam folder. Therefore, I decided to look for a better service.
 
-Now, you might wonder why I didn't choose to self-maintain an SMTP server. Well, that decision was mostly influenced by the "email domain reputation." Most emails sent from self-maintained email servers are considered as "spam." For more information, please check [this link](https://www.reddit.com/r/selfhosted/comments/t8gqir/why_you_really_dont_want_to_selfhost_your_own/).
+Now, you might wonder why I didn't choose to self-maintain an SMTP server. Well, that decision was mostly influenced by the "email domain reputation". Most emails sent from self-maintained email servers are considered as "spam." For more information, please check [this link](https://www.reddit.com/r/selfhosted/comments/t8gqir/why_you_really_dont_want_to_selfhost_your_own/).
 
 The reason I chose Fastmail is mainly because of its integration with 1Password to create masked emails and its commitment to protecting user privacy. Besides, how could it be called "Fastmail" without being fast? lol
 
@@ -56,7 +56,7 @@ Now, edit the production environment configuration file of Mastodon.
 vim .env.production
 ```
 
-Navigate to the SMTP section of the file and press `i` to enter edit mode. (If you don't have such a configuration, just add it at the bottom of the file.)
+Navigate to the SMTP section of the file and press `i` to enter edit mode. (If you don't have such configurations, just add it at the bottom of the file.)
 
 Please remember to replace `YOUR_FASTMAIL_MAIN_ADDRESS`, `YOUR_APP_PASSWORD`, and `YOUR_ALIAS_ADDRESS` with your own credentials.
 
