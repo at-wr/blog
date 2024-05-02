@@ -2,7 +2,7 @@
 title: Hello World (again)
 pubDatetime: 2024-01-19T05:00:00.000Z
 slug: hello-world
-featured: true
+featured: false
 draft: false
 tags:
   - Casual
