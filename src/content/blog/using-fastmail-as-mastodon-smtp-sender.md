@@ -21,6 +21,8 @@ Now, you might wonder why I didn't choose to self-maintain an SMTP server. Well,
 
 The reason I chose Fastmail is mainly because of its integration with 1Password to create masked emails and its commitment to protecting user privacy. Besides, how could it be called "Fastmail" without being fast? lol
 
+You can sign up Fastmail via my [invitation link](https://join.fastmail.com/8ddbc185), which could provide you a discount of 10% off for the first year and benefit both of us. Thanks! >\_<
+
 ## Adding an app password
 
 The steps are quite straightforward. First, go to Fastmail `Settings > Privacy & Security > Integrations` and click on `New app password`.
