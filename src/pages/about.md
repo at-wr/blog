@@ -25,12 +25,11 @@ I'm always glad to hear from you.
 
 ## My Devices / 我的设备
 
-- Dell G15 5520 (2022)
+- Dell G15 5520
 - iPhone 15 Pro
-- iPad Pro 10.5 inch (2017)
-- Apple Watch SE (1st Generation)
-- AirPods Pro 2 (Lightning)
-- GoPro Hero 11
+- iPad Pro 10.5 inch
+- Apple Watch Series 9
+- AirPods Pro 2
 - Kindle Voyage
 - etc.
 
