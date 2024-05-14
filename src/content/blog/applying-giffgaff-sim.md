@@ -44,7 +44,7 @@ language: zh
 
 由于 giffgaff 采用平邮的方式进行邮寄，因此等待时间可能较长。以本人为例，从申请到送达信箱总共间隔了 2 周；偏远地区则等待时间可能会更长。
 
-<iframe src="https://fedist.me/@wr/112314175796443437/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://fedist.me/embed.js" async="async"></script>
+<iframe src="https://fedist.me/@wr/112314175796443437/embed" class="mastodon-embed" style="max-width: 100%; border: 0; text-align: center;" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://fedist.me/embed.js" async="async"></script>
 
 如果不清楚自己地址填写是否正确的话，也可以多申请几份，反正申请不要钱 😉
 
