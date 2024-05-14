@@ -5,8 +5,6 @@ pubDatetime: 2024-05-14T17:30:00+08:00
 modDatetime:
 author: Alan Ye
 slug: applying-giffgaff-sim
-featured:
-draft:
 tags:
   - Tech
   - Tips
