@@ -19,6 +19,7 @@ export async function GET() {
       title: data.title,
       description: data.description,
       pubDate: new Date(data.modDatetime ?? data.pubDatetime),
+      language: data.language,
       // content: sanitizeHtml(parser.render(data.content)),
     })),
   });
